@@ -16,11 +16,12 @@ Inmobiliarias pequeñas y medianas con varios asesores, propiedades publicadas y
 
 - `index.html`: demo del asistente y catálogo de propiedades.
 - `ventas.html`: panel para vender Inmexa a inmobiliarias.
-- Los datos se guardan localmente en el navegador; es una demo, no todavía un sistema multiempresa.
+- La aplicación nueva en `inmexa-app/` guarda datos en D1 y separa inventario y prospectos por inmobiliaria.
+- Cada inmobiliaria obtiene un panel privado y un chat web público. El correo es un contacto declarado; el acceso utiliza un enlace privado.
 
 ## Oferta piloto
 
-- Prueba de 14 días.
+- Prueba de 5 días (120 horas) controlada en el servidor.
 - Configuración de propiedades y mensajes.
 - Panel básico de prospectos.
 - Precio inicial sugerido: $149.000 COP/mes después de la prueba.
@@ -37,4 +38,6 @@ Inmobiliarias pequeñas y medianas con varios asesores, propiedades publicadas y
 
 ## Límites actuales
 
-No se deben prometer todavía usuarios reales, automatización de WhatsApp, disponibilidad 24/7 ni almacenamiento centralizado. Esta versión sirve para demostrar y validar la venta.
+El chat web, la captura centralizada y el panel funcionan en la aplicación nueva. Messenger de Inmexa entrega el enlace de prueba. La integración directa con el Messenger o WhatsApp de cada inmobiliaria no está activada.
+
+El pago en línea depende de terminar la verificación y configuración de Mercado Pago. El administrador puede activar 30 días después de verificar un pago real; no realiza cobros por sí mismo. No prometer cobros automáticos ni una integración que no esté activada.
