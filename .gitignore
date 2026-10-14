@@ -2,3 +2,5 @@
 .env.*
 node_modules/
 dist/
+inmexa-app/
+inmexa-app.tar.gz

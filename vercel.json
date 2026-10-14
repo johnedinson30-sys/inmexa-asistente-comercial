@@ -1,5 +1,9 @@
 {
   "cleanUrls": true,
+  "redirects": [
+    {"source": "/panel", "destination": "https://inmexa-asistente-comercial.rea-de-traba-1066.chatgpt.site/panel", "permanent": false},
+    {"source": "/admin", "destination": "https://inmexa-asistente-comercial.rea-de-traba-1066.chatgpt.site/admin", "permanent": false}
+  ],
   "headers": [
     {
       "source": "/(.*)",
